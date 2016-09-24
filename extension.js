@@ -57,10 +57,12 @@ function onSwitch(display, screen, window, binding_o) {
     this.get_next_workspace(Meta.MotionDirection.UP);
     window.change_workspace(this.metaWorkspace);
     this.metaWorkspace.activate_with_focus(window, global.get_current_time());
+    Main.wm.showWorkspaceOSD();
 	} else if (binding == this.bindings[1]) {
     this.get_next_workspace(Meta.MotionDirection.DOWN);
     window.change_workspace(this.metaWorkspace);
     this.metaWorkspace.activate_with_focus(window, global.get_current_time());
+    Main.wm.showWorkspaceOSD();
 	} else if (binding == this.bindings[2]) {
     this.get_next_workspace(Meta.MotionDirection.UP);
     this.metaWorkspace.activate(global.get_current_time());
