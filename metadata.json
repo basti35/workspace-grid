@@ -1,0 +1,11 @@
+{
+    "name": "Workspace grid", 
+    "cinnamon-version": [
+        "3.0"
+    ], 
+    "url": "http://cinnamon-spices.linuxmint.com/", 
+    "dangerous": false, 
+    "uuid": "workspace-grid@basti35", 
+    "last-edited": "1474731252", 
+    "description": "Workspace grid"
+}
