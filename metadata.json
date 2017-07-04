@@ -2,7 +2,8 @@
     "name": "Workspace grid", 
     "cinnamon-version": [
         "3.0",
-        "3.2"
+        "3.2",
+        "3.4"
     ], 
     "url": "http://cinnamon-spices.linuxmint.com/", 
     "dangerous": false, 
